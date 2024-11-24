@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Doctor - Mecânico Automotivo em Rio Grande-RS">
+    <meta property="og:title" content="The Doctor Mecânico Automotivo">
+    <meta property="og:description" content="Serviços de qualidade em manutenção e reparação automotiva">
+    <meta property="og:image" content="img/logo.jpeg">
+    <meta property="og:url" content="https://thedoctor.com">
+    <title>The Doctor</title>
+     
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/style-nao-critico.css" media="print" onload="this.media='all'">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="img/logos.webp" alt="Logo The Doctor Mecânico Automotivo" class="logo" width="200" height="50" loading="lazy">
+            <div class="header-subtitle">THE DOCTOR MECÂNICO AUTOMOTIVO RIO GRANDE-RS</div>
+            <nav class="menu">
+                <a href="#">HOME</a>
+                <a href="#">QUEM SOMOS</a>
+                <a href="#">SERVIÇOS</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="banner">
+            <img src="img/mecânico.webp" alt="Banner Mecânico" class="banner-image" width="1200" height="400">
+        </div>
+
+        <section class="about">
+            <div class="container">
+                <img src="img/logos.webp" alt="Logo The Doctor Mecânico Automotivo" class="logo-section" width="200" height="200" loading="lazy">
+                <div class="text-section">
+                    <h2>The Doctor Mecânico Automotivo</h2>
+                    <p>Somos uma oficina mecânica que atua em reparação automotiva e manutenção veicular. Estamos no mercado há mais de 10 anos, oferecendo as melhores soluções para nossos clientes. Nossa equipe é altamente qualificada e treinada. Utilizamos os melhores equipamentos e tecnologia de ponta em todas as nossas soluções.</p>
+                    <a href="#" class="btn">Saiba Mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="find-us">
+            <h2>NOS ENCONTRE AQUI!</h2>
+            <div class="container">
+                <!-- Adicionando o loading="lazy" no iframe para carregamento preguiçoso -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.661416883576!2d-52.09915242459251!3d-30.05630008182993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951156d5de290d09%3A0x5c3a06737a7b1892!2sRua%20Visconde%20de%20Mau%C3%A1%2C%20819%20-%20Lagoa%2C%20Rio%20Grande%20-%20RS%2C%2096211-031!5e0!3m2!1spt-BR!2sbr!4v1698188910003!5m2!1spt-BR!2sbr" allowfullscreen loading="lazy" title="Localização do The Doctor Mecânico Automotivo - Mapa"></iframe>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>ENTRE EM CONTATO:</h2>
+            <div class="container">
+                <div class="form-container">
+                    <div class="form-image">
+                        <img src="img/motor2.webp" alt="Imagem ilustrativa de mecânica" width="300" height="200" loading="lazy">
+                    </div>
+                    <form>
+                        <fieldset>
+                            <legend>Informações Pessoais</legend>
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" placeholder="Nome" required>
+
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" placeholder="E-mail" required>
+
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" id="telefone" placeholder="Telefone" required>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Serviço</legend>
+                            <label for="servico">Qual serviço desejado?</label>
+                            <select id="servico" required>
+                                <option value="" disabled selected>Escolha um serviço</option>
+                                <option value="1">Avaliação</option>
+                                <option value="2">Diagnóstico</option>
+                                <option value="3">Manutenção</option>
+                                <option value="4">Troca de óleo</option>
+                                <option value="5">Ar-condicionado</option>
+                                <option value="6">Produtos</option>
+                            </select>
+
+                            <label for="data">Data de preferência:</label>
+                            <input type="date" id="data" required>
+
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" placeholder="Escreva sua mensagem..." required></textarea>
+
+                            <div class="checkbox-container">
+                                <input type="checkbox" id="recaptcha" required>
+                                <label for="recaptcha">Não sou um robô</label>
+                            </div>
+                        </fieldset>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <h2>NOSSOS SERVIÇOS</h2>
+            <div class="container">
+                <div class="categories">
+                    <div class="category">
+                        <img src="img/avaliação.webp" alt="Serviço Avaliação" class="service-image" width="300" height="200" loading="lazy">
+                        <h3>Avaliação</h3>
+                    </div>
+                    <div class="category">
+                        <img src="img/diagnóstico.webp" alt="Serviço Diagnóstico" class="service-image" width="300" height="200" loading="lazy">
+                        <h3>Diagnóstico</h3>
+                    </div>
+                    <div class="category">
+                        <img src="img/manutenção.webp" alt="Serviço Manutenção" class="service-image" width="300" height="200" loading="lazy">
+                        <h3>Manutenção</h3>
+                    </div>
+                    <div class="category">
+                        <img src="img/trocadeoleo.webp" alt="Serviço Troca de óleo" class="service-image" width="300" height="200" loading="lazy">
+                        <h3>Troca de óleo</h3>
+                    </div>
+                    <div class="category">
+                        <img src="img/gasar.webp" alt="Serviço Ar-condicionado" class="service-image" width="300" height="200" loading="lazy">
+                        <h3>Ar-condicionado</h3>
+                    </div>
+                    <div class="category">
+                        <img src="img/oleos.webp" alt="Serviço Produtos" class="service-image" width="300" height="200" loading="lazy">
+                        <h3>Produtos</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Rua Visconde de Mauá, 819 - Bairro Lagoa, Rio Grande - RS, 96211-031</p>
+        <p>(53) 99139-2472 | (53) 99154-5052</p>
+        <div class="social-icons">
+            <a href="#" class="whatsapp">WhatsApp</a>
+            <a href="#" class="instagram">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
