@@ -348,6 +348,25 @@ footer p {
         width: 50%; /* O formulário ocupa a outra metade da tela */
     }
 }
+@media (max-width: 1024px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .contact h2 {
+        margin-bottom: 20px; /* Adiciona espaçamento entre o título e o formulário */
+        text-align: center;
+    }
+
+    .form-container {
+        width: 100%; /* Garante que o formulário se ajuste bem ao espaço disponível */
+        max-width: 600px; /* Define uma largura máxima para evitar problemas de layout */
+    }
+}
+
 
 @media (min-width: 768px) {
     .categories {
